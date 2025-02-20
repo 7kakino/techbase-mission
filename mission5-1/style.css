@@ -1,0 +1,47 @@
+@font-face{
+    font-family: "MaruMonica";
+    src: url("x12y16pxMaruMonica.woff2") format("woff2"),
+        url("x12y16pxMaruMonica.woff") format("woff"),
+        url("x12y16pxMaruMonica.ttf") format("truetype");
+}
+
+body{
+    font-family: "MaruMonica";
+    font-size: 127%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+article{
+    margin: auto;
+    width: 500px;
+    height: 550px;
+    background-color: #ffffff;
+    border: solid 4px #000000;
+}
+
+img{
+    width: 270px;
+    text-align: center;
+}
+
+ul{
+    margin: 0 auto;
+    width: 6em;
+    list-style-image: url(dot.png);
+}
+
+li{
+    margin: 15px auto;
+}
+
+dt{
+    width: 6em;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+dd{
+    margin: 7px auto;
+    width: 6em;
+}
