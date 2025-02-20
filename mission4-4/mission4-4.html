@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>mission4-4</title>
+    <style>
+    section{
+        margin: 100px;
+    }
+    p{
+        color: #666666;
+    }
+    </style>
+</head>
+<body style="text-align: center; background-color: #f5f5f5; font-size: 20px;">
+    <h1 style=" margin:20px; color: #c00000;">
+        <img src="box.png" alt="アイコン" style="width: 50px;">今日のおみくじ<img src="box.png" alt="アイコン" style="width: 50px;">
+    </h1>
+    <article>
+    <section>
+        <p>ボタンをクリックして運勢を占ってみましょう</p>
+        <img onclick="omikujishow()" src="button.png" style="margin: 30px auto 0 auto; width: 200px;"></img>
+        <script src="mission4-4.js"></script>
+    </section>
+    <section style="margin: 100px auto; padding: 40px 10px; border: 1px solid #d5d5d5; width: 450px;">
+        <img src="diamond.png" style="width: 400px; height: 20px;">
+        <div id="omikuji" style="margin: 0 auto; font-size: 200%; writing-mode: vertical-rl;"><p>(結果はここに表示)</p></div>
+        <img src="diamond.png" style="width: 400px; height: 20px;">
+    </section>
+</body>
+</html>
